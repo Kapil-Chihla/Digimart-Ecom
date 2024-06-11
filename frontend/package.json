@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://digimart-ecom.vercel.app",
+  "proxy": "https://digimart-ecom-api.vercel.app",
   "homepage": "./",
   "dependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
