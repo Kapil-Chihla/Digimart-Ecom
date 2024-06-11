@@ -19,7 +19,7 @@ root.render(
         horizontal: 'center',
       }}
     >
-      <Router>
+      <Router basename='/'>
         <App />
       </Router>
     </SnackbarProvider>
