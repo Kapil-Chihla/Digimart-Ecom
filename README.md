@@ -1,43 +1,79 @@
-<header style="background-color: #333; color: white; padding: 10px;">
-    <h1 style="margin: 0;">Digimart Ecommerce</h1>
-    <a href="https://digimart-ecom.onrender.com" style="color: white; text-decoration: none;">Visit Now</a>
-</header>
-<div class="container" style="padding: 20px;">
-    <h2>Tech Stack</h2>
-    <div class="tech-stack" style="display: flex; flex-wrap: wrap;">
-        <img src="[nodejs_logo.png](https://www.svgrepo.com/show/376337/node-js.svg)" alt="Node.js" style="margin: 5px;">
-        <img src="express_logo.png" alt="Express.js" style="margin: 5px;">
-        <img src="redux_logo.png" alt="Redux" style="margin: 5px;">
-        <img src="tailwind_logo.png" alt="Tailwind CSS" style="margin: 5px;">
-        <img src="react_logo.png" alt="React.js" style="margin: 5px;">
-    </div>
-    <h2>Payment Gateway</h2>
-    <div class="payment-gateway">
-        <img src="paytm_logo.png" alt="Paytm" style="margin: 5px;">
-    </div>
-    <h2>Cloud Storage</h2>
-    <p style="margin: 5px;">Cloudinary</p>
-    <h2>Mail Service</h2>
-    <p style="margin: 5px;">SMTP</p>
-    <h2>Features</h2>
-    <div class="features">
-        <ul>
-            <li>User Account Management</li>
-            <li>Password Management</li>
-            <li>Shopping Cart</li>
-            <li>Saved Items</li>
-            <li>Wishlist</li>
-            <li>Product Browsing</li>
-            <li>Checkout Process</li>
-            <li>Order Management</li>
-            <li>Product Interaction</li>
-            <li>Admin Features</li>
-        </ul>
-    </div>
-    <h2>Contact</h2>
-    <p style="margin: 5px;">Feel free to reach me through the below handles if you'd like to contact me.</p>
-    <div class="contact">
-        <a href="#" style="margin: 5px;"><img src="linkedin_logo.png" alt="LinkedIn"></a>
-        <a href="#" style="margin: 5px;"><img src="instagram_logo.png" alt="Instagram"></a>
-    </div>
-</div>
+# Digimart Ecommerce
+
+Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
+
+[Visit Now](https://digimart-ecom.onrender.com)
+
+## Tech Stack
+
+![Node.js](https://skillicons.dev/icons?i=nodejs) ![Redux](https://skillicons.dev/icons?i=redux) ![React](https://skillicons.dev/icons?i=react) ![Express](https://skillicons.dev/icons?i=express) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![TailwindCSS](https://skillicons.dev/icons?i=tailwind)
+
+### Payment Gateway
+
+Paytm ![Paytm](https://skillicons.dev/icons?i=paytm)
+
+### Storage
+
+Cloudinary
+
+### Mail Service
+
+SMTP
+
+## 🚀 Features
+
+### User Account Management
+
+- **Login/Signup:** 🚪 Users can create an account or log in to an existing one.
+- **Update Profile/Password:** 🔐 Users can update their profile information and change their passwords.
+
+### Password Management
+
+- **Reset Password Mail:** 📧 Utilizing Sendgrid, users can reset their passwords via email.
+
+### Shopping Cart
+
+- **Add/Remove Items:** 🛒 Users can add items to their shopping cart or remove them as needed.
+- **Update Quantities:** 🔢 Quantities of items in the cart can be adjusted.
+
+### Saved Items
+
+- **Save For Later:** 💾 Users can move items from the cart to a "Saved For Later" list or remove them from it.
+
+### Wishlist
+
+- **Add/Remove Items:** ❤️ Users can add items to their wishlist or remove them from it.
+
+### Product Browsing
+
+- **Pagination:** 📚 Products are paginated, with 12 products displayed per page by default.
+- **Search:** 🔍 Users can search for products.
+- **Filters:** 🎛️ Products can be filtered based on categories, ratings, and price range.
+
+### Checkout Process
+
+- **Shipping Info:** 🚚 Shipping information is stored in session storage for ease of checkout.
+- **Payment Options:** 💳 Users can pay through Paytm payment gateway for checkout.
+
+### Order Management
+
+- **My Orders:** 📦 Users can view their order history with various filters.
+- **Order Details:** ℹ️ Details of all ordered items are accessible.
+- **Order Confirmation:** ✉️ Users receive email notifications with comprehensive order details upon placing an order.
+
+### Product Interaction
+
+- **Review Products:** 🌟 Users can review products.
+
+### Admin Features
+
+- **Dashboard:** 🖥️ Admins have access to a dedicated dashboard.
+- **Order Management:** 📊 Admins can update order statuses and delete orders.
+- **Product Management:** 📝 Admins can add/update products.
+- **User Management:** 👥 Admins can update user data and delete users.
+- **Review Management:** 📜 Admins can view and delete product reviews.
+- **Stock Management:** 📉 Product stock is automatically decreased upon shipment.
+
+## Connect with Me
+
+[LinkedIn](https://www.linkedin.com/in/kapil-chihla) ![LinkedIn](https://skillicons.dev/icons?i=linkedin)
