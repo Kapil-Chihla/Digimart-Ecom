@@ -1,11 +1,11 @@
 <header style="background-color: #333; color: white; padding: 10px;">
     <h1 style="margin: 0;">Digimart Ecommerce</h1>
-    <a href="#" style="color: white; text-decoration: none;">visitnow link</a>
+    <a href="https://digimart-ecom.onrender.com" style="color: white; text-decoration: none;">Visit Now</a>
 </header>
 <div class="container" style="padding: 20px;">
     <h2>Tech Stack</h2>
     <div class="tech-stack" style="display: flex; flex-wrap: wrap;">
-        <img src="nodejs_logo.png" alt="Node.js" style="margin: 5px;">
+        <img src="[nodejs_logo.png](https://www.svgrepo.com/show/376337/node-js.svg)" alt="Node.js" style="margin: 5px;">
         <img src="express_logo.png" alt="Express.js" style="margin: 5px;">
         <img src="redux_logo.png" alt="Redux" style="margin: 5px;">
         <img src="tailwind_logo.png" alt="Tailwind CSS" style="margin: 5px;">
