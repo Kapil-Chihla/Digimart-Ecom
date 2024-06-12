@@ -21,7 +21,7 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 SMTP
 
-## 🚀 Features
+## Features
 
 ### User Account Management
 
