@@ -11,11 +11,11 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 ### Payment Gateway
 ![Paytm](https://img.shields.io/badge/Paytm-002970?style=for-the-badge&logo=paytm&logoColor=00BAF2)
-Paytm 
+
 
 ### Storage
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=Cloudinary&logoColor=white)
-Cloudinary
+
 
 ### Mail Service
 
