@@ -6,7 +6,8 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 ## Tech Stack
 
-![Node.js](https://skillicons.dev/icons?i=nodejs) ![Redux](https://skillicons.dev/icons?i=redux) ![React](https://skillicons.dev/icons?i=react) ![Express](https://skillicons.dev/icons?i=express) ![MongoDB](https://skillicons.dev/icons?i=mongodb) ![TailwindCSS](https://skillicons.dev/icons?i=tailwind)
+![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Express](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Payment Gateway
 
