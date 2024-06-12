@@ -10,7 +10,7 @@ Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
 
 ### Payment Gateway
 
-Paytm ![Paytm](https://skillicons.dev/icons?i=paytm)
+Paytm 
 
 ### Storage
 
@@ -76,4 +76,4 @@ SMTP
 
 ## Connect with Me
 
-[LinkedIn](https://www.linkedin.com/in/kapil-chihla) ![LinkedIn](https://skillicons.dev/icons?i=linkedin)
+[LinkedIn](https://www.linkedin.com/in/kapil-chihla) 
