@@ -1,6 +1,4 @@
 const app = require("./app.js");
-const path = require('path');
-const express = require("express");
 const dotenv = require('dotenv');
 const connectDatabase = require("./config/database.js");
 const cloudinary = require('cloudinary');
@@ -16,20 +14,7 @@ process.on('uncaughtException', (err) => {
 
 connectDatabase();
 
-// deployment
 
-__dirname = path.resolve();
-if (process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, './frontend/build')));
-
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
-    });
-} else {
-    app.get('/', (req, res) => {
-        res.send('Server is Running!');
-    });
-}
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_NAME,
