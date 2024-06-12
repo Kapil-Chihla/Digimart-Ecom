@@ -8,6 +8,7 @@ const errorMiddleware = require("./middlewares/error.js");
 const order = require('./routes/orderRoute');
 const payment = require('./routes/paymentRoute');
 const cors = require("cors");
+const path = require('path');
 // config
 if (process.env.NODE_ENV !== 'production') {
     require('dotenv').config({ path: '/Users/kapil/Documents/Ecommerce/backend/config/.env' });
@@ -24,6 +25,12 @@ app.use("/api/v1" , product);
 app.use("/api/v1", user)
 app.use('/api/v1', order);
 app.use('/api/v1', payment);
+
+app.use(express.static(path.join(__dirname, "../frontend/build")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+});
 
 //Middleware for Errors
 app.use(errorMiddleware);
