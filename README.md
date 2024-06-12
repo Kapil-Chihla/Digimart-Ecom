@@ -30,7 +30,7 @@ SMTP
 
 ### Password Management
 
-- **Reset Password Mail:** 📧 Utilizing Sendgrid, users can reset their passwords via email.
+- **Reset Password Mail:** 📧 Utilizing SMTP, users can reset their passwords via email.
 
 ### Shopping Cart
 
