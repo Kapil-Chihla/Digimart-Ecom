@@ -1,5 +1,5 @@
 {
-  "buildCommand" : "cd frontend && npm install && set \"GENERATE_SOURCEMAP=false\" &&  react-scripts build",
+  "buildCommand" : "cd frontend && npm install && react-scripts build",
   "outputDirectory" : "frontend/build",
   "rewrites" : [
      {
