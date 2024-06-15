@@ -1,6 +1,6 @@
 # Digimart Ecommerce
 
-Full-Stack Flipkart with Admin Dashboard & Paytm Payment Gateway.
+Full-Stack Ecommerce with Admin Dashboard & Paytm Payment Gateway.
 
 [Visit Now](https://digimart-ecom.onrender.com)
 
