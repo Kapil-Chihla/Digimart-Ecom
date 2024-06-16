@@ -2,7 +2,7 @@
 
 Full-Stack Ecommerce with Admin Dashboard & Paytm Payment Gateway.
 
-[Visit Now](https://digimart-ecom.onrender.com)
+[Visit Now]((https://digimart-ecom.vercel.app/))
 
 ## Tech Stack
 
