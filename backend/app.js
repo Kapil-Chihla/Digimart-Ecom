@@ -10,9 +10,9 @@ const payment = require('./routes/paymentRoute');
 const cors = require("cors");
 const path = require('path');
 // config
-if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config({ path: '/Users/kapil/Documents/Ecommerce/backend/config/.env' });
-}
+
+require('dotenv').config({ path: '/Users/kapil/Documents/Ecommerce/backend/config/.env' });
+
 const app = express();
 app.use(fileUpload());
 app.use(cors());
