@@ -1,11 +1,14 @@
 {
-  "buildCommand" : "cd frontend && npm install && react-scripts build",
-  "outputDirectory" : "frontend/build",
-  "rewrites" : [
-     {
-        "source" : "/backend/(.*)",
-        "destination" : "/backend/server.js"
-     }
-  ]
-
-}
+    "builds": [
+      {
+        "src": "server.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/.*",
+        "dest": "server.js"
+      }
+    ]
+  }
